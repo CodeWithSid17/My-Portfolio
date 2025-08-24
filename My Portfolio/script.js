@@ -186,7 +186,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
                     if (response.ok) {
                         status.style.color = "green";
-                        status.innerHTML = "✅ Thank you <b>${name}</b>, I'll contact you soon!"
+                        status.innerHTML = "✅ Thank you , I'll contact you soon!"
                         form.reset();
                     } else {
                         status.style.color = "red";
@@ -199,3 +199,4 @@ window.addEventListener('DOMContentLoaded', () => {
             });
         }
        
+
